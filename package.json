@@ -1,6 +1,6 @@
 {
   "name": "@lyfebloc/lb-sdk-core",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "description": "🛠 An CORE SDK required by Lyfebloc",
@@ -45,4 +45,3 @@
     "trailingComma": "all"
   }
 }
-
