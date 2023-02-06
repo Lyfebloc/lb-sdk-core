@@ -1,2 +1,2 @@
-# lb-sdk-core
-core elements required by Lyfebloc
+# dmm-sdk-core
+core elements required by both v1 and v2 sdk
