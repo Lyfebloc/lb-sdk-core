@@ -1,2 +1,2 @@
-# amm-sdk-core
+# Lyfebloc-sdk-core
 core elements required by Lyfebloc
