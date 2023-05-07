@@ -1,0 +1,46 @@
+{
+  "name": "@lyfebloc/lb-sdk-core",
+  "version": "3.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "description": "Core SDK for building Lyfebloc",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "lyfebloc",
+    "ethereum"
+  ],
+  "module": "dist/lb-sdk-core.esm.js",
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "test": "tsdx test",
+    "prepublishOnly": "tsdx build"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "@types/bn.js": "^5.1.0",
+    "@solana/web3.js": "^1.66.2",
+    "big.js": "^5.2.2",
+    "decimal.js-light": "^2.5.0",
+    "jsbi": "^3.1.4",
+    "tiny-invariant": "^1.1.0",
+    "toformat": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/big.js": "^4.0.5",
+    "@types/jest": "^24.0.25",
+    "tsdx": "^0.14.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
